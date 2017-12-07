@@ -1,12 +1,97 @@
-.container{
-	padding-top: 28px;
-}
-
+/* Su-Styles */
 .su-brand h3{
-	font-size: 2.75rem;	    
+	font-size: 40;	    
     margin-bottom: 10px;
 	    
 }
 .su-brand-center{
 	    text-align: center;
 }
+
+.su-terminal{
+    font-family: monospace;
+    background: #272b38;
+    color: #48d8a0;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+@media (min-width: 768px)
+.su-terminal {
+    padding: 50px;
+}
+
+.su-narrow-box {	
+    padding-left: 20px;
+    
+}
+.su-content div{
+	padding: 10px;
+}
+
+.su-content h4 {
+    color: #697176;
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/*  custom styles*/
+.container{
+	padding-top: 18 px;
+}
+
+body {
+  padding-top: 20px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+/* Main heading and message and buttom */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+  border: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+
+/* temp */
+
